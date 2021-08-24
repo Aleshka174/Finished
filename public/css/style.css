@@ -1,0 +1,23 @@
+body {
+    height: 100%;
+    background: #d2dedf;
+}
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.header {
+    background: #56e5f0;
+    text-align: center;
+}
+
+.main {
+    padding: 30px;
+    flex: 1 1 auto;
+}
+
+.footer {
+    background: #56e5f0;
+}

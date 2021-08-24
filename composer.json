@@ -1,0 +1,8 @@
+{
+    "require": {
+        "components/jquery": "*",
+        "monolog/monolog": "2.3.2",
+        "twbs/bootstrap": "5.0.*",
+        "uxweb/sweet-alert": "*"
+    }
+}

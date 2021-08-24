@@ -1,0 +1,9 @@
+.idea
+.sublimetext
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sin
+/node_modules/
+/vendor/

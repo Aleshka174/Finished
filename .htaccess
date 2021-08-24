@@ -1,0 +1,9 @@
+AddDefaultCharset utf-8
+
+RewriteEngine On
+# Не применять к существующим файлам файлам
+RewriteCond %{REQUEST_FILENAME} !-f
+# Не применять к существующим директориям
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule .* index.php [L]
